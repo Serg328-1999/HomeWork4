@@ -52,12 +52,12 @@ public class Main {
         System.out.println("Задание 7");
         int one = 1;
         int two = 2;
-        int three = 2;
-        if (one < two && one < three) {
-            System.out.println( one + "  самая маленькая цифра");
-        } else if (two > one && two < three) {
+        int three = 3;
+        if (one >= two && one >= three) {
+            System.out.println( one + "самая маленькая цифра");
+        } else if (two >= one && two >= three) {
             System.out.println(two + " больше " + one + "но меньше " + three );
-        } else if (three > one && three > two) {
+        } else{
             System.out.println(three + "  самая большая цифра");
 
         }
