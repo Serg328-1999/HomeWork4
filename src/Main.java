@@ -19,24 +19,25 @@ public class Main {
             System.out.println("Прийдется заплатить штраф !");
         } else System.out.println("Можете ездить спокойно");
         System.out.println("Задание 4");
-        byte age1 = 2;
-        if (age1 > 2 && age1 < 7)
+        byte age1 = 29;
+        if (age1 > 2 && age1 < 7) {
             System.out.println("тебе нужно ходить в садик");
-        if (age1 >= 7 && age1 == 17)
+        } else if (age1 >= 7 && age1 <=18){
             System.out.println("тебе нужно ходить в школу");
-        if (age1 >= 18 && age1 <= 24)
+        }
+        if (age1 > 18 && age1 <= 24) {
             System.out.println("тебе нужно ходить в университет");
-        if (age1 > 24)
+        } else if(age1 > 24) {
             System.out.println("тебе нужно ходить на работу");
+        }
         System.out.println("Задание 5");
         byte age2 = 15;
         if (age2 < 5) {
             System.out.println("ребенок не может кататься на атракционах !");
         }
-        if (age2 >= 5 && age2 < 14) {
+        if (age2 >= 5 && age2 <= 14) {
             System.out.println("ребенок может кататься только в сопровождении взрослых");
         }
-
         if (age2 > 14) {
             System.out.println("ребенок может кататься самостоятельно");
         }
@@ -51,13 +52,13 @@ public class Main {
         System.out.println("Задание 7");
         int one = 1;
         int two = 2;
-        int three = 3;
+        int three = 2;
         if (one < two && one < three) {
-            System.out.println(" 1 самая маленькая цифра");
+            System.out.println( one + "  самая маленькая цифра");
         } else if (two > one && two < three) {
-            System.out.println(" 2 больше  1 но меньше 3");
-        } else if (three > one && three > two)
-        {System.out.println(" 3 самая большая цифра");
+            System.out.println(two + " больше " + one + "но меньше " + three );
+        } else if (three > one && three > two) {
+            System.out.println(three + "  самая большая цифра");
 
         }
     }
