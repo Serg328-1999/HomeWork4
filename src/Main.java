@@ -56,7 +56,7 @@ public class Main {
         if (one >= two && one >= three) {
             System.out.println( one + "самая маленькая цифра");
         } else if (two >= one && two >= three) {
-            System.out.println(two + " больше " + one + "но меньше " + three );
+            System.out.println(two + " больше "  + one + "но меньше " + three );
         } else{
             System.out.println(three + " самая большая цифра");
 
