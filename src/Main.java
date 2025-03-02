@@ -58,7 +58,7 @@ public class Main {
         } else if (two >= one && two >= three) {
             System.out.println(two + " больше " + one + "но меньше " + three );
         } else{
-            System.out.println(three + "  самая большая цифра");
+            System.out.println(three + " самая большая цифра");
 
         }
     }
